@@ -30,6 +30,7 @@ font-size: 39px;
 #mouse{
     margin-left: 50%;
     margin-bottom: 7%;
+    align-self: center;
 }
 .paragraph2{
     background-color: white;
@@ -75,16 +76,13 @@ font-size: 39px;
     display: none;
 }
 #des1{
-    float: left;
-    margin-left: 12%;
-    margin-top: 6%;
+    margin-top: 3px;
 }
 #dev1{
-    margin-left: 26%;
-margin-top: 6%;
+   margin-top:6px;
 }
 #pm1{
-padding-left: 500px;
+margin-top:6px;
 }
 #WHATWEDO{
     text-align: center;
@@ -107,11 +105,11 @@ padding-left: 500px;
     text-align: center;
     margin-top: 2%;
 }
-.portfolio{
+#portfolio{
     margin-top: 9%;
     text-align: center;
 }
-  .col-md-3:hover{
+.col-md-3:hover{
       padding: 15px;
   } 
   #cs{
@@ -130,12 +128,16 @@ padding-left: 500px;
   
   }
   
+  .cs1{
+      margin-left: 36%;
+  }
   #name{
       background-color: transparent;
   }
   
   #email{
       background-color: transparent;
+
   }
   
     
