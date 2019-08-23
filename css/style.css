@@ -1,12 +1,17 @@
 .paragraph1{
     background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
-    background-size: cover;
-    background-position: center;
+   background-position: center;
+   background-size: cover;
     color: white;
     margin-bottom: 2%;
   
 }
-
+#Logo{
+    align-self: center;
+    margin-left: 47%;
+    margin-bottom: 9%;
+    margin-top: 11%;
+}
 #del1{
     text-align: center;
 font-size: 39px;
@@ -21,12 +26,6 @@ font-size: 39px;
     font-size: 24px
 }
 
-#Logo{
-    align-self: center;
-    margin-left: 47%;
-    margin-bottom: 9%;
-    margin-top: 11%;
-}
 #mouse{
     margin-left: 50%;
     margin-bottom: 7%;
@@ -98,13 +97,6 @@ margin-top:6px;
 
 }
 
-#end1{
-    text-align: center;
-}
-#end2{
-    text-align: center;
-    margin-top: 2%;
-}
 #portfolio{
     margin-top: 9%;
     text-align: center;
@@ -127,7 +119,9 @@ margin-top:6px;
   
   
   }
-  
+  .paragraph5{
+      margin-left: 27%;
+  }
   .cs1{
       margin-left: 36%;
   }
@@ -139,7 +133,12 @@ margin-top:6px;
       background-color: transparent;
 
   }
-  
+  #btn{
+   margin-right: 30%;
+  }
+  .paragraph6{
+      text-align: center;
+  }
     
 
   
