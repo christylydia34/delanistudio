@@ -3,23 +3,33 @@
     background-size: cover;
     background-position: center;
     color: white;
-    margin-top: 2%;
-   margin-bottom:
+    margin-bottom: 2%;
+  
 }
+
 #del1{
     text-align: center;
-
+font-size: 39px;
 }
 #del2{
     text-align: center;
+    font-size: 38px;
 }
 
 #del3{
     text-align: center;
+    font-size: 24px
 }
 
 #Logo{
     align-self: center;
+    margin-left: 47%;
+    margin-bottom: 9%;
+    margin-top: 11%;
+}
+#mouse{
+    margin-left: 50%;
+    margin-bottom: 7%;
 }
 .paragraph2{
     background-color: white;
@@ -38,9 +48,13 @@
 }
 .paragraph3{
     background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+    color: white
 }
 #services{
     text-align: center;
+    margin-top: 5%;
 }
 #p4{
     text-align: center;
@@ -61,8 +75,71 @@
     display: none;
 }
 #des1{
-    margin-left: 13%;
+    float: left;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+#dev1{
+    margin-left: 26%;
+margin-top: 6%;
+}
+#pm1{
+padding-left: 500px;
 }
 #WHATWEDO{
     text-align: center;
+    margin-top: 6%;
+    margin-bottom: 5%
 }
+.paragraph4{
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+    margin-top: 5%;
+
+}
+
+#end1{
+    text-align: center;
+}
+#end2{
+    text-align: center;
+    margin-top: 2%;
+}
+.portfolio{
+    margin-top: 9%;
+    text-align: center;
+}
+  .col-md-3:hover{
+      padding: 15px;
+  } 
+  #cs{
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    font-style: italic;
+  }
+ 
+  #textarea1{
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: transparent;
+  
+  
+  }
+  
+  #name{
+      background-color: transparent;
+  }
+  
+  #email{
+      background-color: transparent;
+  }
+  
+    
+
+  
+  
+  
