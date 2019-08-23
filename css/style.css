@@ -9,5 +9,13 @@
 
 }
 #del2{
-    text-align: center
+    text-align: center;
+}
+
+#del3{
+    text-align: center;
+}
+
+#Logo{
+    align-self: center;
 }
