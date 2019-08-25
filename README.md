@@ -1,9 +1,9 @@
 DELANI STUDIO SITE
 -------------------
 
-3/05/2019
+28/08/2019
 
-By Muhindo Kiro
+By Christine Lydia
 
 Description
 ------------
@@ -28,8 +28,7 @@ Technologies Used
 
 Project livesite
 ------------------
-https://github.com/muhindokiro/delanistudio.git
-
+https://christylydia34.github.io/ip3/
 
 Contact details
 ----------------
@@ -38,19 +37,10 @@ How to contact me;
 
 Emails
 --------
-ndawn45@gmail.com
+christinegikandi@gmail.com
 
-newdawn90@gmail.com
-
-Phone no.
----------
-1. +254790783994
-
-2. +254767590436
-
-3. +254754237845*
 
 
 License MIT License (MIT)
 
-Copyright (c) 2019 Muhindo Kiro
+Copyright (c) 2019 Christine Lydia
