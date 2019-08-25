@@ -4,7 +4,7 @@
    background-size: cover;
     color: white;
     margin-bottom: 2%;
-  
+  height: 100%;
 }
 #Logo{
     align-self: center;
@@ -95,7 +95,7 @@ margin-top:6px;
     margin-bottom: 2%;
     margin-top: 5%;
 
-}
+};
 
 #portfolio{
     margin-top: 9%;
