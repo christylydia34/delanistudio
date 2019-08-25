@@ -13,7 +13,7 @@ $(".clickable1").click(function(){
             $(".pm show").toggle();
         });
 
-        $(".buttonsubmit").click(function(){
+        $(".buttonsubmit").click(function(event) {
             event.preventDefault();
             var user =document.getElementById("name").value;
             alert("Hello there " + user + "your message has been received .");
