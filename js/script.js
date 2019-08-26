@@ -21,9 +21,6 @@ $("#des1").click(function(){
         
     });
 
-    $(".work4").mouseenter(function(){
-        $("text4").show("slow");
-    })
      
 });
 

@@ -1,5 +1,5 @@
 .paragraph1{
-    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
+    background-image: url(../img/logo/logo.jpg);
     height: 100%;
     width: 100%;
    background-position: center;
@@ -51,7 +51,7 @@ font-size: 39px;
     text-align: center; 
 }
 .paragraph3{
-    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
+    background-image: url(../img/services_icons/services.jpg);
     background-position: center;
     background-size: cover;
     color: white
@@ -92,12 +92,15 @@ margin-top:6px;
     margin-top: 6%;
     margin-bottom: 5%
 }
+#what_we_do{
+    text-align: center;
+}
 .paragraph4{
-    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 2%;
-    margin-top: 5%;
+        background-image: url(../img/social_icons/contact.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 2%;
+        margin-top: 5%;
 
 }
 
@@ -109,20 +112,20 @@ margin-top:6px;
     padding: 15px;
 
   } 
-  #cs{
+ #cs{
     text-align: center;
     color: white;
     margin-top: 3%;
     font-style: italic;
   }
- 
-  #textarea1{
+  
+   #textarea1{
     margin-left: 30%;
     margin-top: 2%;
     margin-bottom: 5%;
     background-color: transparent;
   
-  
+
   }
   .paragraph5{
       margin-left: 27%;
@@ -183,6 +186,13 @@ margin-top:6px;
 #work {
     margin: 3px;
     margin-bottom: 20px;
+}
+#text1{
+    display: none;
+    position: absolute;
+    color: white;
+    background-color:rgba(255,255,255, 0.34);
+    top: 20px;
 }
 
   
