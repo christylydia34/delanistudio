@@ -4,14 +4,14 @@ $(".clickable1").click(function(){
     $(".design hide ").toggle();
     $(".design show").toggle();
 });
-    $(".clickable2").click(function(){
-        $(".development hide").toggle();
-        $(".development show").toggle();
+    $("#dev1").click(function(){
+        $(".development ").toggle(1000);
+      
     });
 
-        $(".clickable3").click(function(){
-            $(".pm hide").toggle();
-            $(".pm show").toggle();
+        $("#pm1").click(function(){
+            $(".product-management").toggle(1000);
+            // $(".product-management").toggle();
         });
 
         $(".buttonsubmit").click(function(event) {
