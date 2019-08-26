@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-$(".clickable1").click(function(){
-    $(".design hide ").toggle();
-    $(".design show").toggle();
+$("#des1").click(function(){
+    $(".designol").toggle(1000);
+ 
 });
     $("#dev1").click(function(){
-        $(".development ").toggle(1000);
+        $(".developmentil").toggle(1000);
       
     });
 
