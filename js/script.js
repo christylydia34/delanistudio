@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    
+
 $(".clickable1").click(function(){
-    $(".design hide").toggle();
-    $(".design show").toggle();
+    $(".design ").removeClass("hide");
+    $(".design ").addClass("show");
 });
     $(".clickable2").click(function(){
         $(".development hide").toggle();
