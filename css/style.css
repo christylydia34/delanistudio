@@ -1,10 +1,11 @@
 .paragraph1{
     background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
     height: 100%;
-     width: 400px;
+    width: 100%;
    background-position: center;
    background-size: cover;
     color: white;
+    position: relative;
   
 }
 
@@ -98,7 +99,7 @@ margin-top:6px;
     margin-bottom: 2%;
     margin-top: 5%;
 
-};
+}
 
 #portfolio{
     margin-top: 9%;
@@ -106,6 +107,7 @@ margin-top:6px;
 }
 .col-md-3:hover{
     padding: 15px;
+
   } 
   #cs{
     text-align: center;
@@ -141,39 +143,42 @@ margin-top:6px;
   }
   .paragraph6{
       text-align: center;
-  };
+  }
   #h5{
       text-align: centre;
       margin-left: 50%;
-  };
-  .ontario{
+  }
+  .col-md-3{
       position: relative;
+      width: 50%;
   }
-.overlay{
-      position: absolute;
-      transition-duration: 500s;
-      opacity: 0;
-      background-color: dimgrey;  
-}
-  .text{
-      color: white;
-      font-family: sans-serif;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      font-size: 20px;
-  }
-  .overLayTop{
-      width: 100%;
-      height:0%;
-      top: 0%;
-      left:0%;
-      background-color: dimgrey;
-
+  .image{
+      display: block;
   }
     
+.overlay{
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ width: 100%;
+ opacity:0%;
+ transition: .5s ease ;
 
-  
+ background-color: grey;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
   
   
