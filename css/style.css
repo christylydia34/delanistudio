@@ -126,17 +126,17 @@ margin-top:6px;
 
   }
   .paragraph5{
-      margin-left: 27%;
+      margin-left: 20%;
   }
   .cs1{
       margin-left: 36%;
   }
   #name{
-    text-decoration-color: white;
+   background-color: transparent;
   }
   
   #email{
-     text-emphasis-color: white;
+     background-color: transparent;
   }
   #btn{
    margin-left:50%;
@@ -150,17 +150,30 @@ margin-top:6px;
       margin-left: 50%;
   }
 
-#work {
+.card {
     margin: 3px;
     margin-bottom: 20px;
 }
-#text1{
+#text1 , #text2 ,#text3 ,#text4 , #text5 ,#text6 , #text7 ,#text8{
     display: none;
     position: absolute;
-    color: white;
-    background-color:rgba(255,255,255, 0.34);
-    top: 20px;
+    color:black;
+    background-color: rgba(255 ,255, 255 ,0.6);
+    opacity: 0.7;
+    top: 0.4px;
+    bottom: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+
 }
 
-  
-  
+footer{
+    padding-top: 5%;
+   margin-left: 38%;
+   text-align: center;
+}
+.placeholder{
+    background-color: white;
+}
