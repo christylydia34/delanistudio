@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
 $(".clickable1").click(function(){
     $(".design hide").toggle();
     $(".design show").toggle();

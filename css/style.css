@@ -132,14 +132,18 @@ margin-top:6px;
   #email{
       background-color: transparent;
 
-  }
+  };
   #btn{
    margin-left:50%;
    margin-bottom: 4%;
-  }
+  };
   .paragraph6{
       text-align: center;
-  }
+  };
+  #portfolio{
+      text-align: centre;
+      margin-left: 50%;
+  };
     
 
   
