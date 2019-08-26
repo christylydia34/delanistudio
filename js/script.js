@@ -13,14 +13,34 @@ $("#des1").click(function(){
             $(".product-management").toggle(1000);
             // $(".product-management").toggle();
         });
+});
 
-        $(".buttonsubmit").click(function(event) {
-            event.preventDefault();
-            var user =document.getElementById("name").value;
-            alert("Hello there " + user + "your message has been received .");
+
+            function validateForm() {
+                var name = document.getElementById("name").value
+                var email = document.getElementById("email").value
+
+
+                if (name == ""){
+                    alert("Please fill in your name");
+                    return false;
+                    
+                }
+                else if (email == ""){
+                    alert("PLease fill in your email")
+                }
+                else {
+                    alert(name + ", We have recieved your details. Thank you for reaching out")
+                }
+            }
+                
+
+
+              
+
         
-    });
+
 
      
-});
+
 
