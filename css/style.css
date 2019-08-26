@@ -65,13 +65,13 @@ font-size: 39px;
 #p6{
     text-align: center;
 }
-#design hidden{
+#design{
     display: none;
 }
-#development hide{
+#development {
     display: none;
 }
-#pm hide {
+#pm  {
     display: none;
 }
 #des1{
@@ -144,6 +144,7 @@ margin-top:6px;
       text-align: centre;
       margin-left: 50%;
   };
+
     
 
   
