@@ -20,6 +20,10 @@ $("#des1").click(function(){
             alert("Hello there " + user + "your message has been received .");
         
     });
+
+    $(".work4").mouseenter(function(){
+        $("text4").show("slow");
+    })
      
 });
 
